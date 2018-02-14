@@ -37,7 +37,6 @@ namespace WindowsFormsApplication2
             this.buttonİki = new System.Windows.Forms.Button();
             this.buttonAltı = new System.Windows.Forms.Button();
             this.buttonUc = new System.Windows.Forms.Button();
-            this.buttonVirgul = new System.Windows.Forms.Button();
             this.buttonAC = new System.Windows.Forms.Button();
             this.buttonBir = new System.Windows.Forms.Button();
             this.buttonBolme = new System.Windows.Forms.Button();
@@ -51,117 +50,106 @@ namespace WindowsFormsApplication2
             // buttonYedi
             // 
             this.buttonYedi.Location = new System.Drawing.Point(178, 225);
-            this.buttonYedi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonYedi.Margin = new System.Windows.Forms.Padding(2);
             this.buttonYedi.Name = "buttonYedi";
             this.buttonYedi.Size = new System.Drawing.Size(58, 41);
             this.buttonYedi.TabIndex = 0;
             this.buttonYedi.Text = "7";
             this.buttonYedi.UseVisualStyleBackColor = true;
-            this.buttonYedi.Click += new System.EventHandler(this.ekle);
+            this.buttonYedi.Click += new System.EventHandler(this.buttonYedi_Click);
             // 
             // buttonDort
             // 
             this.buttonDort.Location = new System.Drawing.Point(178, 271);
-            this.buttonDort.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonDort.Margin = new System.Windows.Forms.Padding(2);
             this.buttonDort.Name = "buttonDort";
             this.buttonDort.Size = new System.Drawing.Size(58, 41);
             this.buttonDort.TabIndex = 1;
             this.buttonDort.Text = "4";
             this.buttonDort.UseVisualStyleBackColor = true;
-            this.buttonDort.Click += new System.EventHandler(this.ekle);
+            this.buttonDort.Click += new System.EventHandler(this.buttonDort_Click);
             // 
             // buttonSıfır
             // 
             this.buttonSıfır.Location = new System.Drawing.Point(178, 364);
-            this.buttonSıfır.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonSıfır.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSıfır.Name = "buttonSıfır";
-            this.buttonSıfır.Size = new System.Drawing.Size(120, 41);
+            this.buttonSıfır.Size = new System.Drawing.Size(182, 41);
             this.buttonSıfır.TabIndex = 3;
             this.buttonSıfır.Text = "0";
             this.buttonSıfır.UseVisualStyleBackColor = true;
-            this.buttonSıfır.Click += new System.EventHandler(this.ekle);
+            this.buttonSıfır.Click += new System.EventHandler(this.buttonSıfır_Click);
             // 
             // buttonSekiz
             // 
             this.buttonSekiz.Location = new System.Drawing.Point(241, 225);
-            this.buttonSekiz.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonSekiz.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSekiz.Name = "buttonSekiz";
             this.buttonSekiz.Size = new System.Drawing.Size(58, 41);
             this.buttonSekiz.TabIndex = 4;
             this.buttonSekiz.Text = "8";
             this.buttonSekiz.UseVisualStyleBackColor = true;
-            this.buttonSekiz.Click += new System.EventHandler(this.ekle);
+            this.buttonSekiz.Click += new System.EventHandler(this.buttonSekiz_Click);
             // 
             // buttonBes
             // 
             this.buttonBes.Location = new System.Drawing.Point(241, 271);
-            this.buttonBes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonBes.Margin = new System.Windows.Forms.Padding(2);
             this.buttonBes.Name = "buttonBes";
             this.buttonBes.Size = new System.Drawing.Size(58, 41);
             this.buttonBes.TabIndex = 5;
             this.buttonBes.Text = "5";
             this.buttonBes.UseVisualStyleBackColor = true;
-            this.buttonBes.Click += new System.EventHandler(this.ekle);
+            this.buttonBes.Click += new System.EventHandler(this.buttonBes_Click);
             // 
             // buttonDokuz
             // 
             this.buttonDokuz.Location = new System.Drawing.Point(303, 225);
-            this.buttonDokuz.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonDokuz.Margin = new System.Windows.Forms.Padding(2);
             this.buttonDokuz.Name = "buttonDokuz";
             this.buttonDokuz.Size = new System.Drawing.Size(58, 41);
             this.buttonDokuz.TabIndex = 6;
             this.buttonDokuz.Text = "9";
             this.buttonDokuz.UseVisualStyleBackColor = true;
-            this.buttonDokuz.Click += new System.EventHandler(this.ekle);
+            this.buttonDokuz.Click += new System.EventHandler(this.buttonDokuz_Click);
             // 
             // buttonİki
             // 
             this.buttonİki.Location = new System.Drawing.Point(241, 318);
-            this.buttonİki.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonİki.Margin = new System.Windows.Forms.Padding(2);
             this.buttonİki.Name = "buttonİki";
             this.buttonİki.Size = new System.Drawing.Size(58, 41);
             this.buttonİki.TabIndex = 7;
             this.buttonİki.Text = "2";
             this.buttonİki.UseVisualStyleBackColor = true;
-            this.buttonİki.Click += new System.EventHandler(this.ekle);
+            this.buttonİki.Click += new System.EventHandler(this.buttonİki_Click);
             // 
             // buttonAltı
             // 
             this.buttonAltı.Location = new System.Drawing.Point(303, 271);
-            this.buttonAltı.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonAltı.Margin = new System.Windows.Forms.Padding(2);
             this.buttonAltı.Name = "buttonAltı";
             this.buttonAltı.Size = new System.Drawing.Size(58, 41);
             this.buttonAltı.TabIndex = 8;
             this.buttonAltı.Text = "6";
             this.buttonAltı.UseVisualStyleBackColor = true;
-            this.buttonAltı.Click += new System.EventHandler(this.ekle);
+            this.buttonAltı.Click += new System.EventHandler(this.buttonAltı_Click);
             // 
             // buttonUc
             // 
             this.buttonUc.Location = new System.Drawing.Point(303, 318);
-            this.buttonUc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonUc.Margin = new System.Windows.Forms.Padding(2);
             this.buttonUc.Name = "buttonUc";
             this.buttonUc.Size = new System.Drawing.Size(58, 41);
             this.buttonUc.TabIndex = 9;
             this.buttonUc.Text = "3";
             this.buttonUc.UseVisualStyleBackColor = true;
-            this.buttonUc.Click += new System.EventHandler(this.ekle);
-            // 
-            // buttonVirgul
-            // 
-            this.buttonVirgul.Location = new System.Drawing.Point(303, 364);
-            this.buttonVirgul.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.buttonVirgul.Name = "buttonVirgul";
-            this.buttonVirgul.Size = new System.Drawing.Size(58, 41);
-            this.buttonVirgul.TabIndex = 10;
-            this.buttonVirgul.Text = ",";
-            this.buttonVirgul.UseVisualStyleBackColor = true;
-            this.buttonVirgul.Click += new System.EventHandler(this.ekle);
+            this.buttonUc.Click += new System.EventHandler(this.buttonUc_Click);
             // 
             // buttonAC
             // 
             this.buttonAC.Location = new System.Drawing.Point(178, 179);
-            this.buttonAC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonAC.Margin = new System.Windows.Forms.Padding(2);
             this.buttonAC.Name = "buttonAC";
             this.buttonAC.Size = new System.Drawing.Size(182, 41);
             this.buttonAC.TabIndex = 11;
@@ -172,63 +160,63 @@ namespace WindowsFormsApplication2
             // buttonBir
             // 
             this.buttonBir.Location = new System.Drawing.Point(178, 318);
-            this.buttonBir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonBir.Margin = new System.Windows.Forms.Padding(2);
             this.buttonBir.Name = "buttonBir";
             this.buttonBir.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.buttonBir.Size = new System.Drawing.Size(58, 41);
             this.buttonBir.TabIndex = 2;
             this.buttonBir.Text = "1";
             this.buttonBir.UseVisualStyleBackColor = true;
-            this.buttonBir.Click += new System.EventHandler(this.ekle);
+            this.buttonBir.Click += new System.EventHandler(this.buttonBir_Click);
             // 
             // buttonBolme
             // 
             this.buttonBolme.Location = new System.Drawing.Point(365, 179);
-            this.buttonBolme.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonBolme.Margin = new System.Windows.Forms.Padding(2);
             this.buttonBolme.Name = "buttonBolme";
             this.buttonBolme.Size = new System.Drawing.Size(58, 41);
             this.buttonBolme.TabIndex = 12;
             this.buttonBolme.Text = "/";
             this.buttonBolme.UseVisualStyleBackColor = true;
-            this.buttonBolme.Click += new System.EventHandler(this.islem);
+            this.buttonBolme.Click += new System.EventHandler(this.buttonBolme_Click);
             // 
             // buttonCarpma
             // 
             this.buttonCarpma.Location = new System.Drawing.Point(365, 225);
-            this.buttonCarpma.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonCarpma.Margin = new System.Windows.Forms.Padding(2);
             this.buttonCarpma.Name = "buttonCarpma";
             this.buttonCarpma.Size = new System.Drawing.Size(58, 41);
             this.buttonCarpma.TabIndex = 13;
             this.buttonCarpma.Text = "x";
             this.buttonCarpma.UseVisualStyleBackColor = true;
-            this.buttonCarpma.Click += new System.EventHandler(this.islem);
+            this.buttonCarpma.Click += new System.EventHandler(this.buttonCarpma_Click);
             // 
             // buttonCıkarma
             // 
             this.buttonCıkarma.Location = new System.Drawing.Point(365, 271);
-            this.buttonCıkarma.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonCıkarma.Margin = new System.Windows.Forms.Padding(2);
             this.buttonCıkarma.Name = "buttonCıkarma";
             this.buttonCıkarma.Size = new System.Drawing.Size(58, 41);
             this.buttonCıkarma.TabIndex = 14;
             this.buttonCıkarma.Text = "-";
             this.buttonCıkarma.UseVisualStyleBackColor = true;
-            this.buttonCıkarma.Click += new System.EventHandler(this.islem);
+            this.buttonCıkarma.Click += new System.EventHandler(this.buttonCıkarma_Click);
             // 
             // buttonToplama
             // 
             this.buttonToplama.Location = new System.Drawing.Point(365, 318);
-            this.buttonToplama.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonToplama.Margin = new System.Windows.Forms.Padding(2);
             this.buttonToplama.Name = "buttonToplama";
             this.buttonToplama.Size = new System.Drawing.Size(58, 41);
             this.buttonToplama.TabIndex = 15;
             this.buttonToplama.Text = "+";
             this.buttonToplama.UseVisualStyleBackColor = true;
-            this.buttonToplama.Click += new System.EventHandler(this.islem);
+            this.buttonToplama.Click += new System.EventHandler(this.buttonToplama_Click);
             // 
             // buttonEsittir
             // 
             this.buttonEsittir.Location = new System.Drawing.Point(365, 364);
-            this.buttonEsittir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonEsittir.Margin = new System.Windows.Forms.Padding(2);
             this.buttonEsittir.Name = "buttonEsittir";
             this.buttonEsittir.Size = new System.Drawing.Size(58, 41);
             this.buttonEsittir.TabIndex = 16;
@@ -239,10 +227,9 @@ namespace WindowsFormsApplication2
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(178, 132);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(246, 42);
             this.textBox1.TabIndex = 17;
             // 
@@ -250,7 +237,7 @@ namespace WindowsFormsApplication2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(770, 609);
+            this.ClientSize = new System.Drawing.Size(534, 602);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.buttonEsittir);
             this.Controls.Add(this.buttonToplama);
@@ -258,7 +245,6 @@ namespace WindowsFormsApplication2
             this.Controls.Add(this.buttonCarpma);
             this.Controls.Add(this.buttonBolme);
             this.Controls.Add(this.buttonAC);
-            this.Controls.Add(this.buttonVirgul);
             this.Controls.Add(this.buttonUc);
             this.Controls.Add(this.buttonAltı);
             this.Controls.Add(this.buttonİki);
@@ -269,9 +255,10 @@ namespace WindowsFormsApplication2
             this.Controls.Add(this.buttonBir);
             this.Controls.Add(this.buttonDort);
             this.Controls.Add(this.buttonYedi);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -288,7 +275,6 @@ namespace WindowsFormsApplication2
         private System.Windows.Forms.Button buttonİki;
         private System.Windows.Forms.Button buttonAltı;
         private System.Windows.Forms.Button buttonUc;
-        private System.Windows.Forms.Button buttonVirgul;
         private System.Windows.Forms.Button buttonAC;
         private System.Windows.Forms.Button buttonBir;
         private System.Windows.Forms.Button buttonBolme;
@@ -299,6 +285,8 @@ namespace WindowsFormsApplication2
         private System.Windows.Forms.TextBox textBox1;
     }
 }
+
+
 
 
 
