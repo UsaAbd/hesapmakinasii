@@ -1,1 +1,11 @@
 c:\users\asus\documents\visual studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\ZehraBetül\Documents\Visual Studio 2017\Projects\hesapmakinasii\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\ZehraBetül\Documents\Visual Studio 2017\Projects\hesapmakinasii\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\ZehraBetül\Documents\Visual Studio 2017\Projects\hesapmakinasii\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\ZehraBetül\Documents\Visual Studio 2017\Projects\hesapmakinasii\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\ZehraBetül\Documents\Visual Studio 2017\Projects\hesapmakinasii\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\ZehraBetül\Documents\Visual Studio 2017\Projects\hesapmakinasii\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\ZehraBetül\Documents\Visual Studio 2017\Projects\hesapmakinasii\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\ZehraBetül\Documents\Visual Studio 2017\Projects\hesapmakinasii\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.CoreCompileInputs.cache
+C:\Users\ZehraBetül\Documents\Visual Studio 2017\Projects\hesapmakinasii\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\ZehraBetül\Documents\Visual Studio 2017\Projects\hesapmakinasii\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
