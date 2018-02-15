@@ -38,4 +38,4 @@ Sorumlu Abdullah Uşan
 
 #### Uygulamanın son hali;
 
-![](https://github.com/zehrabetulboynuegri/img/blob/master/hesapMak.png)
+![](https://github.com/UsaAbd/hesapmakinasii/blob/master/hesapMak.png)
